@@ -1,0 +1,9 @@
+# Venvs
+.venv
+
+# Configuration files
+.vscode
+
+# Cache
+*.pyc
+__pycache__

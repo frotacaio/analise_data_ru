@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "analise-data-ru"
+version = "0.1.0"
+description = "Projeto para aplicação de análise de dados e criação de modelos de regressão para o Banco de dados do RU."
+authors = ["Caio Frota <>, André Rodrigues <andrelmarques11@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "analise_data_ru"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+numpy = "^1.25.0"
+pandas = "^2.0.3"
+scikit-learn = "^1.2.2"
+pytest = "^7.4.0"
+openpyxl = "^3.1.2"
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.14.0"
+ipykernel = "^6.23.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
