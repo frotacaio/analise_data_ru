@@ -51,3 +51,18 @@ poetry --version
 ```
 poetry install
 ```
+
+## Rodar o projeto
+
+Primeiramente, entrar na venv:
+
+```sh
+poetry shell
+```
+
+Executar o projeto pelo streamlit:
+
+```sh
+streamlit run analise_data_ru/view/data_app.py
+```
+
