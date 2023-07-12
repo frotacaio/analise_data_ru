@@ -8,7 +8,7 @@ readme = "README.md"
 packages = [{include = "analise_data_ru"}]
 
 [tool.poetry.dependencies]
-python = ">=3.9,<4.0"
+python = ">3.9.7,<4.0"
 numpy = "^1.25.0"
 pandas = "^2.0.3"
 scikit-learn = "^1.2.2"
@@ -16,6 +16,9 @@ pytest = "^7.4.0"
 openpyxl = "^3.1.2"
 matplotlib = "^3.7.2"
 seaborn = "^0.12.2"
+plotly = "^5.15.0"
+nbformat = "^5.9.1"
+streamlit = "^1.24.1"
 
 [tool.poetry.group.dev.dependencies]
 ipython = "^8.14.0"
