@@ -66,3 +66,6 @@ Executar o projeto pelo streamlit:
 streamlit run analise_data_ru/view/data_app.py
 ```
 
+## Repositório
+
+[github](https://github.com/frotacaio/analise_data_ru)
